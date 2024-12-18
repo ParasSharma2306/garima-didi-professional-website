@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
+    background: #333;
 }
 
 nav {
@@ -113,4 +114,13 @@ section {
     background: url(assets/images/primary-bg.jpg) no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    background: #0275dd;
+    min-height: 75px;
 }
