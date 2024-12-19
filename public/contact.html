@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>About</title>
         <link rel="stylesheet" href="../style.css">
+        <script src="https://smtpjs.com/v3/smtp.js" defer></script>
+        <script src="../script.js" defer></script>
     </head>
     <body>
         <header>
@@ -15,14 +17,27 @@
                 <label class="logo">Advocate Garima Dikshit</label>
                 <ul>
                     <li><a href="../index.html">Home</a></li>
-                    <li><a class="active" href="about.html">About</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a class="active" href="">Contact</a></li>
                     <li><a href="">Schedule</a></li>
                 </ul>
             </nav>
         </header>
 
-        <main></main>
+        <main>
+            <div class="flex-container">
+                <div class="contact-form">
+                    <div class="image"></div>
+                    <div class="content">
+                        <h1>Contact Us!</h1>
+                        <input type="text" class="field name" placeholder="Your Name">
+                        <input type="email" class="field mail" placeholder="Your Email Address">
+                        <textarea class="field area" placeholder="Your Message"></textarea>
+                        <button class="btn" id="send-btn">Send</button>
+                    </div>
+                </div>
+            </div>
+        </main>
 
         <footer>
             <a href="https://www.linkedin.com/in/garima-dikshit?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img src="../assets/images/linkedin.png" alt="linkedin logo"></a>
