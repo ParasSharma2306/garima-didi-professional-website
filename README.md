@@ -22,3 +22,10 @@ December 4th, 2024:
 
 December 17th, 2024:
     nav bar created, work actually began;
+
+December 18th, 2024:
+    about page created;
+
+December 19th, 2024:
+    contact page created and added to contact branch, contact feature temporarily removed from main branch;
+
